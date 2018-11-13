@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cz.uhk.ppro.db.model">
+  <class name="cz.uhk.ppro.db.model.Student" table="studenti">
+  	<id column="id" name="cisloStudia">
+  		<generator class="identity"/>
+  	</id>
+  	<property name="prijmeni" column="PRIJMENI"/>
+  	<property name="jmeno" column="JMENO"/>
+  </class>
+</hibernate-mapping>
